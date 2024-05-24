@@ -1,0 +1,78 @@
+
+.dashboardContainer {
+
+    padding: 20px;
+
+}
+
+.title {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+.table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+.table th, .table td {
+
+    border: 1px solid #ddd;
+
+    padding: 8px;
+
+    text-align: left;
+
+}
+
+.table th {
+
+    background-color: #f2f2f2;
+
+    color: black;
+
+}
+
+.acceptButton {
+
+    background-color: #4CAF50;
+
+    color: white;
+
+    padding: 5px 10px;
+
+    margin: 5px;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.rejectButton {
+
+    background-color: #f44336;
+
+    color: white;
+
+    padding: 5px 10px;
+
+    margin: 5px;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.acceptButton:hover, .rejectButton:hover {
+
+    opacity: 0.8;
+
+}

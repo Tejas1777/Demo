@@ -1,0 +1,131 @@
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+ }
+ .title {
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .title p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+ }
+ .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+ }
+ .table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+ }
+ .table th {
+    background-color: #f2f2f2;
+ }
+ .table td {
+    background-color: #fff;
+ }
+ .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+ }
+ .table button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .table button:hover {
+    opacity: 0.8;
+ }
+ .table button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+ }
+ .table button:last-of-type {
+    background-color: #f44336;
+    color: white;
+ }
+ .table input[type="text"],
+ .table input[type="email"],
+ .table input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+ }
+ .table input[type="text"] {
+    font-size: 14px;
+ }
+ .table input[type="email"] {
+    font-size: 14px;
+ }
+ .table input[type="date"] {
+    font-size: 14px;
+ }
+ .error {
+    color: red;
+    font-size: 14px;
+ }
+ .reg_btn {
+    text-align: center;
+ }
+ .reg_btn input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+ }
+ .reg_btn input[type="submit"]:hover {
+    background-color: #45a049;
+ }
+ .gender {
+    margin-bottom: 15px;
+ }
+ .gender_title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+ }
+ .category {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+ }
+ .category_label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ }
+ .dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+ }
+ .one {
+    background-color: #4CAF50;
+ }
+ .two {
+    background-color: #2196F3;
+ }
+ .three {
+    background-color: #FFC107;
+ }
+ .four {
+    background-color: #f44336;
+ }
+ .selected {
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 3px;
+ }
